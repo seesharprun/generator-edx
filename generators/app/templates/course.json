@@ -1,0 +1,29 @@
+{
+  "course": {
+    "url_name": "course",
+    "-org": "Microsoft",
+    "-course": "DEV211.1x",
+    "-course_image": "edX_Dev211.1x_image.png",
+    "-display_name": "<%= courseName %>",
+    "-start": "\"2016-03-25T00:00:00+00:00\"",
+    "-end": "\"2016-05-25T00:00:00+00:00\"",
+    "-language": "en",
+    "-minimum_grade_credit": "0.8",
+    "mobile_available": "true",
+    "-video_upload_pipeline": "------",
+    "cert_html_view_enabled": "true",
+    "certificates_display_behavior": "early_no_info",
+    "chapter": [
+      { "-url_name": "db656cf094964a5eae2d4da8c8c6dc62" },
+      { "-url_name": "bad5907833b044ca8d51dcfed067aa2b" },
+      { "-url_name": "835f35213ee6436ab9958c4a4967338f" },
+      { "-url_name": "46f1a0d8e8884f4dbe11ee069842fbd2" },
+      { "-url_name": "a0e9ededaf364cd693465ded7abc0591" },
+      { "-url_name": "2fd68b08671e481fa75fa5013ad1f5ab" },
+      { "-url_name": "aba70e6cc5d742f3b8afadd34b08335a" }
+    ],
+    "wiki": { 
+        "-slug": "-----" 
+    }
+  }
+}

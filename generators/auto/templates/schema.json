@@ -1,0 +1,122 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "https://github.com/seesharprun/generator-edx",
+    "type": "object",
+    "additionalProperties": true,
+    "title": "Root schema.",
+    "description": "An explanation about the puropose of this instance described by this schema.",
+    "name": "/",
+    "properties": {
+        "name": {
+            "id": "https://github.com/seesharprun/generator-edx/name",
+            "type": "string",
+            "minLength": 1,
+            "title": "Name schema.",
+            "description": "An explanation about the puropose of this instance described by this schema.",
+            "name": "name"
+        },
+        "title": {
+            "id": "https://github.com/seesharprun/generator-edx/title",
+            "type": "string",
+            "minLength": 1,
+            "title": "Title schema.",
+            "description": "An explanation about the puropose of this instance described by this schema.",
+            "name": "title"
+        },
+        "modules": {
+            "id": "https://github.com/seesharprun/generator-edx/modules",
+            "type": "array",
+            "minItems": 0,
+            "uniqueItems": false,
+            "additionalItems": false,
+            "title": "Modules schema.",
+            "description": "An explanation about the puropose of this instance described by this schema.",
+            "name": "modules",
+            "items": {
+                "id": "https://github.com/seesharprun/generator-edx/modules/0",
+                "type": "object",
+                "additionalProperties": true,
+                "title": "0 schema.",
+                "description": "An explanation about the puropose of this instance described by this schema.",
+                "name": "0",
+                "properties": {
+                    "name": {
+                        "id": "https://github.com/seesharprun/generator-edx/modules/0/name",
+                        "type": "string",
+                        "minLength": 1,
+                        "title": "Name schema.",
+                        "description": "An explanation about the puropose of this instance described by this schema.",
+                        "name": "name"
+                    },
+                    "title": {
+                        "id": "https://github.com/seesharprun/generator-edx/modules/0/title",
+                        "type": "string",
+                        "minLength": 1,
+                        "title": "Title schema.",
+                        "description": "An explanation about the puropose of this instance described by this schema.",
+                        "name": "title"
+                    },
+                    "sections": {
+                        "id": "https://github.com/seesharprun/generator-edx/modules/0/sections",
+                        "type": "array",
+                        "minItems": 0,
+                        "uniqueItems": false,
+                        "additionalItems": false,
+                        "title": "Sections schema.",
+                        "description": "An explanation about the puropose of this instance described by this schema.",
+                        "name": "sections",
+                        "items": {
+                            "id": "https://github.com/seesharprun/generator-edx/modules/0/sections/0",
+                            "type": "object",
+                            "additionalProperties": true,
+                            "title": "0 schema.",
+                            "description": "An explanation about the puropose of this instance described by this schema.",
+                            "name": "0",
+                            "properties": {
+                                "name": {
+                                    "id": "https://github.com/seesharprun/generator-edx/modules/0/sections/0/name",
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "title": "Name schema.",
+                                    "description": "An explanation about the puropose of this instance described by this schema.",
+                                    "name": "name"
+                                },
+                                "title": {
+                                    "id": "https://github.com/seesharprun/generator-edx/modules/0/sections/0/title",
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "title": "Title schema.",
+                                    "description": "An explanation about the puropose of this instance described by this schema.",
+                                    "name": "title"
+                                },
+                                "units": {
+                                    "id": "https://github.com/seesharprun/generator-edx/modules/0/sections/0/units",
+                                    "type": "array",
+                                    "minItems": 0,
+                                    "uniqueItems": false,
+                                    "additionalItems": false,
+                                    "title": "Units schema.",
+                                    "description": "An explanation about the puropose of this instance described by this schema.",
+                                    "name": "units",
+                                    "items": {
+                                        "id": "https://github.com/seesharprun/generator-edx/modules/0/sections/0/units/0",
+                                        "type": "string",
+                                        "minLength": 1,
+                                        "title": "0 schema.",
+                                        "description": "An explanation about the puropose of this instance described by this schema.",
+                                        "name": "0"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "required": [
+        "name",
+        "title",
+        "modules"
+    ]
+}
