@@ -62,17 +62,15 @@ module.exports = edXBase.extend({
             this.log(table.toString());
         },
         compose: function () {
-            for (var i = 0; i < 10; i++) {
-                this.composeWith('edx:module', {
-                    options: {
-                        'course': this.settings.courseName,
-                        'module-title': 'Intro Module'
-                    },
-                    args: [
-                        'Mod00' + i
-                    ]
-                });
-            }
+            this.composeWith('edx:module', {
+                options: {
+                    'course': this.settings.courseName,
+                    'module-title': 'Intro Module'
+                },
+                args: [
+                    'Mod00'
+                ]
+            });
         }
     },
     writing: {

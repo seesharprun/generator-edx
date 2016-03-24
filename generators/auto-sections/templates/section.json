@@ -1,0 +1,4 @@
+{
+    "name": "<%= sectionName %>",
+    "title": "<%= sectionTitle %>"
+}

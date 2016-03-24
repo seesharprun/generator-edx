@@ -7,9 +7,6 @@ module.exports = generators.Base.extend({
     settings: {
         courseMetadataFile: 'course.json'
     },
-    configuration: {
-        
-    },
     constructor: function() {
         generators.Base.apply(this, arguments);
         this.argument('config-file', {
@@ -38,6 +35,11 @@ module.exports = generators.Base.extend({
             }
         },
         compose: function () {
+            this.composeWith('edx:auto-modules', {
+                options: {
+                    'configuration': this.configuration
+                }
+            });
         }
     },
     writing: {

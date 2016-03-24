@@ -1,19 +1,28 @@
 {
   "name": "generator-edx",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Creates content for an edX course written in Markdown",
+  "author": "Sidney Andrews <sidney@seesharprun.net>",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/seesharprun/generator-edx"
+  },
+  "bugs": {
+      "url": "https://github.com/seesharprun/generator-edx/issues"
+  },
   "files": [
     "generators/app",
     "generators/router"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "edx"
   ],
   "dependencies": {
     "cli-table": "^0.3.1",
     "jsonschema": "^1.1.0",
     "node-uuid": "^1.4.7",
-    "numeral": "^1.5.3",
     "yeoman-generator": "^0.20.2"
-  }
+  },
+  "license": "MIT"
 }
