@@ -1,6 +1,6 @@
 {
   "name": "generator-edx",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Creates content for an edX course written in Markdown",
   "author": "Sidney Andrews <sidney@seesharprun.net>",
   "repository": {
